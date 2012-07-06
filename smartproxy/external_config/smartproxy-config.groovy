@@ -231,6 +231,7 @@ cerner{
 				DBPSUPINE="Diastolic Blood Pressure Supine"
 				DBPSITTING="Diastolic Blood Pressure Sitting"
 				DBPSTANDING="Diastolic Blood Pressure Standing"
+				OSAT="Oxygen Saturation (SPO2)" 
 		}
 	}
 }
