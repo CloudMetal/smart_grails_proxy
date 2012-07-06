@@ -37,6 +37,7 @@ environments {
 
 cerner{
 	mo{
+		eventCount=300
 		encounterResource{
 			Outpatient= "ambulatory"
 			Emergency= "emergency"
