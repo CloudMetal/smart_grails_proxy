@@ -37,7 +37,7 @@ environments {
 
 cerner{
 	mo{
-		eventCount=300
+		eventCount=150
 		encounterResource{
 			Outpatient= "ambulatory"
 			Emergency= "emergency"
@@ -219,8 +219,8 @@ cerner{
 				WEIGHT="Weight"
 				HEIGHT="Height"
 				TEMP="Temperature"
-				HR="Heart Rate"
-				RR="Respiratory Rate"
+				//HR="Heart Rate"
+				//RR="Respiratory Rate"
 				SBP="Systolic Blood Pressure"
 				DBP="Diastolic Blood Pressure"
 				METHOD="Blood Pressure Method"
@@ -232,7 +232,7 @@ cerner{
 				DBPSUPINE="Diastolic Blood Pressure Supine"
 				DBPSITTING="Diastolic Blood Pressure Sitting"
 				DBPSTANDING="Diastolic Blood Pressure Standing"
-				OSAT="Oxygen Saturation (SPO2)" 
+				//OSAT="Oxygen Saturation (SPO2)" 
 		}
 	}
 }
@@ -243,7 +243,7 @@ log4j = {
         file name:'file', file:'C:\\logs\\smartproxy.log'
     }
     root {
-        error 'file'
+        info 'file'
 	}
 	
 	//Comment the following line if you want to disable logging all MO requests and responses
