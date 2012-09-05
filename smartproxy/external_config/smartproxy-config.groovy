@@ -246,7 +246,8 @@ log4j = {
         info 'file'
 	}
 	
-	//Comment the following line if you want to disable logging all MO requests and responses
-	//debug 	"org.apache.http.wire"
-	debug		"org.apache.http.headers"
+	//The following line toggles logging all MO requests and responses
+	debug 	"org.apache.http.wire"
+	//debug "org.apache.http.headers"
+	//debug file:'org.hibernate'
 }
