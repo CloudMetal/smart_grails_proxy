@@ -247,7 +247,7 @@ log4j = {
 	}
 	
 	//The following line toggles logging all MO requests and responses
-	debug 	"org.apache.http.wire"
-	//debug "org.apache.http.headers"
+	//debug 	"org.apache.http.wire"
+	debug "org.apache.http.headers"
 	//debug file:'org.hibernate'
 }
