@@ -240,7 +240,16 @@ cerner{
 	
 log4j = {
     appenders {
-        file name:'file', file:'C:\\logs\\smartproxy.log'
+		environments {
+			production {
+			}
+			development {
+				file name:'file', file:'C:\\logs\\smartproxy.log'
+			}
+			test {
+				file name:'file', file:'/var/log/tomcat6/smartproxy.log'
+			}
+		}
     }
     root {
         info 'file'
